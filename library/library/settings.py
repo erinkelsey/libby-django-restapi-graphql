@@ -39,17 +39,21 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'catalog',
     'rest_framework',
-    'django_filters'
+    'django_filters',
+    'graphene_django'
 ]
+
+GRAPHENE = {
+    'SCHEMA' : 'library.schema.schema'
+}
 
 REST_FRAMEWORK = {
     'DEFAULT_FILTER_BACKENDS' : (
         'django_filters.rest_framework.DjangoFilterBackend',
     ),
     # http://127.0.0.1:8000/api/books/?limit=1
+    # http://127.0.0.1:8000/api/books/?limit=1&offset=1
     'DEFAULT_PAGINATION_CLASS' : 'rest_framework.pagination.LimitOffsetPagination',
-    'PAGE_SIZE': 1
-
 }
 
 MIDDLEWARE = [
