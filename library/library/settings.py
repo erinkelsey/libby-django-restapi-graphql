@@ -41,7 +41,8 @@ INSTALLED_APPS = [
     'rest_framework',
     'django_filters',
     'graphene_django',
-    'users'
+    'users',
+    'reviews'
 ]
 
 GRAPHENE = {
