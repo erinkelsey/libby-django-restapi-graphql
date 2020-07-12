@@ -13,6 +13,10 @@ graphene-django = "*"
 django-graphql-jwt = "*"
 boto3 = "*"
 graphene-file-upload = "*"
+whitenoise = "*"
+dj-database-url = "*"
+gunicorn = "*"
+psycopg2-binary = "*"
 
 [requires]
 python_version = "3.7"

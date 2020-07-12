@@ -3,8 +3,10 @@
 *.pot
 *.pyc
 __pycache__
-db.sqlite3
+*.sqlite3
 media
+staticfiles
+.env
 
 # Backup files # 
 *.bak 
@@ -115,3 +117,5 @@ Pipfile.lock
 !.vscode/launch.json 
 !.vscode/extensions.json 
 .history
+
+heroku_commands.txt
