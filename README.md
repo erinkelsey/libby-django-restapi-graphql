@@ -2,7 +2,7 @@
 Django REST Framework API and a Graphene GraphQL interface built with REST API serializers
 
 ## About
-Simple library backend using Django REST Framework and Graphene to create a REST API and a GraphQL interface. The stack is Python/Django/SQLite/GraphQL/Graphene/Django REST Framework. You can see working example here:
+Simple library backend using Django REST Framework and Graphene to create a REST API and a GraphQL interface. The stack is Python/Django/SQLite/GraphQL/Graphene/Heroku/Django REST Framework. You can see working example here:
 
 REST API:
   - Functionality:

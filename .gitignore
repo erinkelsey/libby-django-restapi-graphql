@@ -6,7 +6,6 @@ __pycache__
 *.sqlite3
 media
 staticfiles
-.env
 
 # Backup files # 
 *.bak 
@@ -108,7 +107,7 @@ Control.ca-list
 Control.ca-bundle 
 Control.system-ca-bundle 
 GitHub.sublime-settings 
-Pipfile.lock
+# Pipfile.lock
 
 # Visual Studio Code # 
 .vscode/* 
